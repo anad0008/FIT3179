@@ -19,12 +19,12 @@
         "fields": ["test"]
       }
     },
-    {"calculate": "datum.test + 0.1", "as": "2016"}
+    {"calculate": "datum.test + 0.1", "as": "2016 Visitation Numbers"}
   ],
   "mark": {"type": "geoshape"},
   "encoding": {
     "color": {
-      "field": "2016",
+      "field": "2016 Visitation Numbers",
       "type": "quantitative",
       "scale":
 {"type": "log", "scheme": "purples"}
