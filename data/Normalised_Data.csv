@@ -1,5 +1,5 @@
 ,Country Name,Year,Normalised
-0.01,Aruba,1995,91.91
+0,Aruba,1995,91.91
 1,Africa Eastern and Southern,1995,3.21
 2,Afghanistan,1995,0.01
 3,Africa Western and Central,1995,1.13
@@ -43,7 +43,6 @@
 41,Cote d'Ivoire,1995,1.31
 42,Cameroon,1995,0.01
 43,"Congo, Dem. Rep.",1995,0.08
-44,"Congo, Rep.",1995,0.01
 45,Colombia,1995,3.79
 46,Comoros,1995,4.61
 47,Cabo Verde,1995,6.76
@@ -66,7 +65,7 @@
 64,Europe & Central Asia (excluding high income),1995,10.08
 65,Europe & Central Asia,1995,41.63
 66,Ecuador,1995,3.70
-67,"Egypt, Arab Rep.",1995,4.79
+67,Egypt,1995,4.79
 68,Euro area,1995,0.01
 69,Eritrea,1995,12.50
 70,Spain,1995,56.91
@@ -109,7 +108,7 @@
 107,Isle of Man,1995,0.01
 108,India,1995,0.22
 109,Ireland,1995,57.17
-110,"Iran, Islamic Rep.",1995,0.73
+110,Iran,1995,0.73
 111,Iraq,1995,0.30
 112,Iceland,1995,44.10
 113,Israel,1995,31.33
@@ -199,7 +198,7 @@
 197,French Polynesia,1995,46.03
 198,Qatar,1995,0.01
 199,Romania,1995,19.36
-200,Russian Federation,1995,6.49
+200,Russia,1995,6.49
 201,Rwanda,1995,0.01
 202,South Asia,1995,0.31
 203,Saudi Arabia,1995,19.09
@@ -248,10 +247,10 @@
 246,Ukraine,1995,10.63
 247,Upper middle income,1995,9.96
 248,Uruguay,1995,40.31
-249,United States,1995,23.04
+249,United States of America,1995,23.04
 250,Uzbekistan,1995,0.40
 251,St. Vincent and the Grenadines,1995,66.86
-252,"Venezuela, RB",1995,3.85
+252,Venezuela,1995,3.85
 253,British Virgin Islands,1995,91.90
 254,Virgin Islands (U.S.),1995,94.17
 255,Vietnam,1995,1.77
@@ -307,7 +306,6 @@
 305,Cote d'Ivoire,1996,1.59
 306,Cameroon,1996,0.01
 307,"Congo, Dem. Rep.",1996,0.09
-308,"Congo, Rep.",1996,0.01
 309,Colombia,1996,1.99
 310,Comoros,1996,4.68
 311,Cabo Verde,1996,8.55
@@ -330,7 +328,7 @@
 328,Europe & Central Asia (excluding high income),1996,11.51
 329,Europe & Central Asia,1996,43.03
 330,Ecuador,1996,4.05
-331,"Egypt, Arab Rep.",1996,5.77
+331,Egypt,1996,5.77
 332,Euro area,1996,0.01
 333,Eritrea,1996,15.96
 334,Spain,1996,58.00
@@ -373,7 +371,7 @@
 371,Isle of Man,1996,0.01
 372,India,1996,0.23
 373,Ireland,1996,59.25
-374,"Iran, Islamic Rep.",1996,0.91
+374,Iran,1996,0.91
 375,Iraq,1996,0.24
 376,Iceland,1996,45.33
 377,Israel,1996,29.31
@@ -463,7 +461,7 @@
 461,French Polynesia,1996,45.28
 462,Qatar,1996,0.01
 463,Romania,1996,18.71
-464,Russian Federation,1996,9.86
+464,Russia,1996,9.86
 465,Rwanda,1996,0.01
 466,South Asia,1996,0.32
 467,Saudi Arabia,1996,0.01
@@ -512,10 +510,10 @@
 510,Ukraine,1996,11.68
 511,Upper middle income,1996,10.41
 512,Uruguay,1996,41.01
-513,United States,1996,23.50
+513,United States of America,1996,23.50
 514,Uzbekistan,1996,0.74
 515,St. Vincent and the Grenadines,1996,66.67
-516,"Venezuela, RB",1996,4.11
+516,Venezuela,1996,4.11
 517,British Virgin Islands,1996,92.60
 518,Virgin Islands (U.S.),1996,94.27
 519,Vietnam,1996,2.07
@@ -571,7 +569,6 @@
 569,Cote d'Ivoire,1997,1.78
 570,Cameroon,1997,0.01
 571,"Congo, Dem. Rep.",1997,0.07
-572,"Congo, Rep.",1997,0.01
 573,Colombia,1997,1.97
 574,Comoros,1997,4.92
 575,Cabo Verde,1997,10.02
@@ -594,7 +591,7 @@
 592,Europe & Central Asia (excluding high income),1997,14.14
 593,Europe & Central Asia,1997,44.39
 594,Ecuador,1997,4.24
-595,"Egypt, Arab Rep.",1997,5.75
+595,Egypt,1997,5.75
 596,Euro area,1997,0.01
 597,Eritrea,1997,15.74
 598,Spain,1997,60.91
@@ -637,7 +634,7 @@
 635,Isle of Man,1997,0.01
 636,India,1997,0.24
 637,Ireland,1997,60.33
-638,"Iran, Islamic Rep.",1997,1.20
+638,Iran,1997,1.20
 639,Iraq,1997,0.07
 640,Iceland,1997,45.13
 641,Israel,1997,28.23
@@ -727,7 +724,7 @@
 725,French Polynesia,1997,46.98
 726,Qatar,1997,0.01
 727,Romania,1997,18.59
-728,Russian Federation,1997,10.56
+728,Russia,1997,10.56
 729,Rwanda,1997,0.01
 730,South Asia,1997,0.33
 731,Saudi Arabia,1997,0.01
@@ -776,10 +773,10 @@
 774,Ukraine,1997,22.56
 775,Upper middle income,1997,10.73
 776,Uruguay,1997,42.96
-777,United States,1997,23.23
+777,United States of America,1997,23.23
 778,Uzbekistan,1997,3.90
 779,St. Vincent and the Grenadines,1997,64.96
-780,"Venezuela, RB",1997,3.92
+780,Venezuela,1997,3.92
 781,British Virgin Islands,1997,92.54
 782,Virgin Islands (U.S.),1997,95.15
 783,Vietnam,1997,2.18
@@ -835,7 +832,6 @@
 833,Cote d'Ivoire,1998,1.89
 834,Cameroon,1998,0.01
 835,"Congo, Dem. Rep.",1998,0.12
-836,"Congo, Rep.",1998,0.01
 837,Colombia,1998,2.10
 838,Comoros,1998,4.98
 839,Cabo Verde,1998,11.19
@@ -858,7 +854,7 @@
 856,Europe & Central Asia (excluding high income),1998,12.76
 857,Europe & Central Asia,1998,44.74
 858,Ecuador,1998,4.02
-859,"Egypt, Arab Rep.",1998,4.96
+859,Egypt,1998,4.96
 860,Euro area,1998,0.01
 861,Eritrea,1998,7.85
 862,Spain,1998,62.86
@@ -901,7 +897,7 @@
 899,Isle of Man,1998,0.01
 900,India,1998,0.23
 901,Ireland,1998,62.03
-902,"Iran, Islamic Rep.",1998,1.55
+902,Iran,1998,1.55
 903,Iraq,1998,0.20
 904,Iceland,1998,48.20
 905,Israel,1998,26.92
@@ -991,7 +987,7 @@
 989,French Polynesia,1998,47.68
 990,Qatar,1998,0.01
 991,Romania,1998,17.67
-992,Russian Federation,1998,9.88
+992,Russia,1998,9.88
 993,Rwanda,1998,0.01
 994,South Asia,1998,0.33
 995,Saudi Arabia,1998,0.01
@@ -1040,10 +1036,10 @@
 1038,Ukraine,1998,19.31
 1039,Upper middle income,1998,10.94
 1040,Uruguay,1998,41.39
-1041,United States,1998,21.32
+1041,United States of America,1998,21.32
 1042,Uzbekistan,1998,3.26
 1043,St. Vincent and the Grenadines,1998,65.20
-1044,"Venezuela, RB",1998,3.37
+1044,Venezuela,1998,3.37
 1045,British Virgin Islands,1998,93.37
 1046,Virgin Islands (U.S.),1998,95.17
 1047,Vietnam,1998,1.91
@@ -1099,7 +1095,6 @@
 1097,Cote d'Ivoire,1999,0.01
 1098,Cameroon,1999,0.01
 1099,"Congo, Dem. Rep.",1999,0.17
-1100,"Congo, Rep.",1999,0.01
 1101,Colombia,1999,1.83
 1102,Comoros,1999,4.34
 1103,Cabo Verde,1999,13.74
@@ -1122,7 +1117,7 @@
 1120,Europe & Central Asia (excluding high income),1999,12.68
 1121,Europe & Central Asia,1999,45.10
 1122,Ecuador,1999,4.00
-1123,"Egypt, Arab Rep.",1999,6.63
+1123,Egypt,1999,6.63
 1124,Euro area,1999,0.01
 1125,Eritrea,1999,2.48
 1126,Spain,1999,64.08
@@ -1165,7 +1160,7 @@
 1163,Isle of Man,1999,0.01
 1164,India,1999,0.24
 1165,Ireland,1999,63.04
-1166,"Iran, Islamic Rep.",1999,2.00
+1166,Iran,1999,2.00
 1167,Iraq,1999,0.13
 1168,Iceland,1999,50.32
 1169,Israel,1999,29.52
@@ -1255,7 +1250,7 @@
 1253,French Polynesia,1999,49.98
 1254,Qatar,1999,0.01
 1255,Romania,1999,18.86
-1256,Russian Federation,1999,11.33
+1256,Russia,1999,11.33
 1257,Rwanda,1999,0.01
 1258,South Asia,1999,0.34
 1259,Saudi Arabia,1999,0.01
@@ -1304,10 +1299,10 @@
 1302,Ukraine,1999,18.12
 1303,Upper middle income,1999,11.46
 1304,Uruguay,1999,40.73
-1305,United States,1999,21.36
+1305,United States of America,1999,21.36
 1306,Uzbekistan,1999,1.96
 1307,St. Vincent and the Grenadines,1999,67.42
-1308,"Venezuela, RB",1999,2.87
+1308,Venezuela,1999,2.87
 1309,British Virgin Islands,1999,93.41
 1310,Virgin Islands (U.S.),1999,94.76
 1311,Vietnam,1999,2.20
@@ -1363,7 +1358,6 @@
 1361,Cote d'Ivoire,2000,0.01
 1362,Cameroon,2000,0.01
 1363,"Congo, Dem. Rep.",2000,0.22
-1364,"Congo, Rep.",2000,0.01
 1365,Colombia,2000,1.75
 1366,Comoros,2000,4.24
 1367,Cabo Verde,2000,21.17
@@ -1386,7 +1380,7 @@
 1384,Europe & Central Asia (excluding high income),2000,14.21
 1385,Europe & Central Asia,2000,46.42
 1386,Ecuador,2000,4.71
-1387,"Egypt, Arab Rep.",2000,7.41
+1387,Egypt,2000,7.41
 1388,Euro area,2000,0.01
 1389,Eritrea,2000,2.96
 1390,Spain,2000,64.77
@@ -1429,7 +1423,7 @@
 1427,Isle of Man,2000,0.01
 1428,India,2000,0.25
 1429,Ireland,2000,63.59
-1430,"Iran, Islamic Rep.",2000,2.00
+1430,Iran,2000,2.00
 1431,Iraq,2000,0.33
 1432,Iceland,2000,53.84
 1433,Israel,2000,29.82
@@ -1519,7 +1513,7 @@
 1517,French Polynesia,2000,0.01
 1518,Qatar,2000,0.01
 1519,Romania,2000,19.00
-1520,Russian Federation,2000,12.62
+1520,Russia,2000,12.62
 1521,Rwanda,2000,0.01
 1522,South Asia,2000,0.36
 1523,Saudi Arabia,2000,0.01
@@ -1568,10 +1562,10 @@
 1566,Ukraine,2000,19.21
 1567,Upper middle income,2000,12.28
 1568,Uruguay,2000,40.25
-1569,United States,2000,21.73
+1569,United States of America,2000,21.73
 1570,Uzbekistan,2000,1.21
 1571,St. Vincent and the Grenadines,2000,70.37
-1572,"Venezuela, RB",2000,2.43
+1572,Venezuela,2000,2.43
 1573,British Virgin Islands,2000,93.05
 1574,Virgin Islands (U.S.),2000,95.66
 1575,Vietnam,2000,2.61
@@ -1627,7 +1621,6 @@
 1625,Cote d'Ivoire,2001,0.01
 1626,Cameroon,2001,0.01
 1627,"Congo, Dem. Rep.",2001,0.11
-1628,"Congo, Rep.",2001,0.01
 1629,Colombia,2001,1.92
 1630,Comoros,2001,3.37
 1631,Cabo Verde,2001,23.52
@@ -1650,7 +1643,7 @@
 1648,Europe & Central Asia (excluding high income),2001,14.72
 1649,Europe & Central Asia,2001,45.33
 1650,Ecuador,2001,4.73
-1651,"Egypt, Arab Rep.",2001,6.21
+1651,Egypt,2001,6.21
 1652,Euro area,2001,0.01
 1653,Eritrea,2001,4.54
 1654,Spain,2001,64.91
@@ -1693,7 +1686,7 @@
 1691,Isle of Man,2001,0.01
 1692,India,2001,0.24
 1693,Ireland,2001,62.17
-1694,"Iran, Islamic Rep.",2001,2.07
+1694,Iran,2001,2.07
 1695,Iraq,2001,0.52
 1696,Iceland,2001,53.59
 1697,Israel,2001,15.92
@@ -1783,7 +1776,7 @@
 1781,French Polynesia,2001,0.01
 1782,Qatar,2001,0.01
 1783,Romania,2001,18.24
-1784,Russian Federation,2001,12.89
+1784,Russia,2001,12.89
 1785,Rwanda,2001,0.01
 1786,South Asia,2001,0.33
 1787,Saudi Arabia,2001,0.01
@@ -1832,10 +1825,10 @@
 1830,Ukraine,2001,19.62
 1831,Upper middle income,2001,12.38
 1832,Uruguay,2001,39.11
-1833,United States,2001,19.94
+1833,United States of America,2001,19.94
 1834,Uzbekistan,2001,1.36
 1835,St. Vincent and the Grenadines,2001,70.19
-1836,"Venezuela, RB",2001,3.11
+1836,Venezuela,2001,3.11
 1837,British Virgin Islands,2001,93.47
 1838,Virgin Islands (U.S.),2001,95.83
 1839,Vietnam,2001,2.80
@@ -1891,7 +1884,6 @@
 1889,Cote d'Ivoire,2002,0.01
 1890,Cameroon,2002,0.01
 1891,"Congo, Dem. Rep.",2002,0.06
-1892,"Congo, Rep.",2002,0.01
 1893,Colombia,2002,1.59
 1894,Comoros,2002,3.21
 1895,Cabo Verde,2002,22.15
@@ -1914,7 +1906,7 @@
 1912,Europe & Central Asia (excluding high income),2002,15.89
 1913,Europe & Central Asia,2002,45.59
 1914,Ecuador,2002,4.94
-1915,"Egypt, Arab Rep.",2002,6.77
+1915,Egypt,2002,6.77
 1916,Euro area,2002,0.01
 1917,Eritrea,2002,3.91
 1918,Spain,2002,65.69
@@ -1957,7 +1949,7 @@
 1955,Isle of Man,2002,0.01
 1956,India,2002,0.22
 1957,Ireland,2002,62.22
-1958,"Iran, Islamic Rep.",2002,2.30
+1958,Iran,2002,2.30
 1959,Iraq,2002,0.01
 1960,Iceland,2002,52.28
 1961,Israel,2002,11.60
@@ -2047,7 +2039,7 @@
 2045,French Polynesia,2002,0.01
 2046,Qatar,2002,0.01
 2047,Romania,2002,18.07
-2048,Russian Federation,2002,13.82
+2048,Russia,2002,13.82
 2049,Rwanda,2002,0.01
 2050,South Asia,2002,0.31
 2051,Saudi Arabia,2002,0.01
@@ -2096,10 +2088,10 @@
 2094,Ukraine,2002,20.97
 2095,Upper middle income,2002,12.86
 2096,Uruguay,2002,28.93
-2097,United States,2002,18.30
+2097,United States of America,2002,18.30
 2098,Uzbekistan,2002,1.30
 2099,St. Vincent and the Grenadines,2002,69.56
-2100,"Venezuela, RB",2002,2.30
+2100,Venezuela,2002,2.30
 2101,British Virgin Islands,2002,93.03
 2102,Virgin Islands (U.S.),2002,95.56
 2103,Vietnam,2002,3.12
@@ -2155,7 +2147,6 @@
 2153,Cote d'Ivoire,2003,0.01
 2154,Cameroon,2003,0.01
 2155,"Congo, Dem. Rep.",2003,0.07
-2156,"Congo, Rep.",2003,0.01
 2157,Colombia,2003,1.58
 2158,Comoros,2003,3.41
 2159,Cabo Verde,2003,25.00
@@ -2178,7 +2169,7 @@
 2176,Europe & Central Asia (excluding high income),2003,16.60
 2177,Europe & Central Asia,2003,45.97
 2178,Ecuador,2003,5.39
-2179,"Egypt, Arab Rep.",2003,7.66
+2179,Egypt,2003,7.66
 2180,Euro area,2003,0.01
 2181,Eritrea,2003,2.98
 2182,Spain,2003,66.12
@@ -2221,7 +2212,7 @@
 2219,Isle of Man,2003,0.01
 2220,India,2003,0.24
 2221,Ireland,2003,62.86
-2222,"Iran, Islamic Rep.",2003,2.22
+2222,Iran,2003,2.22
 2223,Iraq,2003,0.01
 2224,Iceland,2003,54.59
 2225,Israel,2003,0.01
@@ -2311,7 +2302,7 @@
 2309,French Polynesia,2003,0.01
 2310,Qatar,2003,0.01
 2311,Romania,2003,20.59
-2312,Russian Federation,2003,13.47
+2312,Russia,2003,13.47
 2313,Rwanda,2003,0.01
 2314,South Asia,2003,0.35
 2315,Saudi Arabia,2003,0.01
@@ -2360,10 +2351,10 @@
 2358,Ukraine,2003,24.08
 2359,Upper middle income,2003,12.27
 2360,Uruguay,2003,31.21
-2361,United States,2003,17.63
+2361,United States of America,2003,17.63
 2362,Uzbekistan,2003,0.90
 2363,St. Vincent and the Grenadines,2003,69.08
-2364,"Venezuela, RB",2003,1.67
+2364,Venezuela,2003,1.67
 2365,British Virgin Islands,2003,92.77
 2366,Virgin Islands (U.S.),2003,95.67
 2367,Vietnam,2003,2.87
@@ -2419,7 +2410,6 @@
 2417,Cote d'Ivoire,2004,0.01
 2418,Cameroon,2004,0.01
 2419,"Congo, Dem. Rep.",2004,0.07
-2420,"Congo, Rep.",2004,0.01
 2421,Colombia,2004,1.96
 2422,Comoros,2004,3.75
 2423,Cabo Verde,2004,25.59
@@ -2442,7 +2432,7 @@
 2440,Europe & Central Asia (excluding high income),2004,18.46
 2441,Europe & Central Asia,2004,47.46
 2442,Ecuador,2004,5.68
-2443,"Egypt, Arab Rep.",2004,9.85
+2443,Egypt,2004,9.85
 2444,Euro area,2004,58.06
 2445,Eritrea,2004,3.10
 2446,Spain,2004,66.70
@@ -2485,7 +2475,7 @@
 2483,Isle of Man,2004,0.01
 2484,India,2004,0.31
 2485,Ireland,2004,63.08
-2486,"Iran, Islamic Rep.",2004,2.35
+2486,Iran,2004,2.35
 2487,Iraq,2004,0.01
 2488,Iceland,2004,58.10
 2489,Israel,2004,18.11
@@ -2575,7 +2565,7 @@
 2573,French Polynesia,2004,0.01
 2574,Qatar,2004,0.01
 2575,Romania,2004,23.53
-2576,Russian Federation,2004,13.28
+2576,Russia,2004,13.28
 2577,Rwanda,2004,0.01
 2578,South Asia,2004,0.42
 2579,Saudi Arabia,2004,32.39
@@ -2624,10 +2614,10 @@
 2622,Ukraine,2004,28.14
 2623,Upper middle income,2004,13.67
 2624,Uruguay,2004,36.03
-2625,United States,2004,18.76
+2625,United States of America,2004,18.76
 2626,Uzbekistan,2004,1.00
 2627,St. Vincent and the Grenadines,2004,70.71
-2628,"Venezuela, RB",2004,2.32
+2628,Venezuela,2004,2.32
 2629,British Virgin Islands,2004,93.16
 2630,Virgin Islands (U.S.),2004,96.02
 2631,Vietnam,2004,3.41
@@ -2683,7 +2673,6 @@
 2681,Cote d'Ivoire,2005,0.01
 2682,Cameroon,2005,0.01
 2683,"Congo, Dem. Rep.",2005,0.11
-2684,"Congo, Rep.",2005,0.01
 2685,Colombia,2005,2.25
 2686,Comoros,2005,4.06
 2687,Cabo Verde,2005,29.95
@@ -2706,7 +2695,7 @@
 2704,Europe & Central Asia (excluding high income),2005,19.98
 2705,Europe & Central Asia,2005,48.35
 2706,Ecuador,2005,5.86
-2707,"Egypt, Arab Rep.",2005,10.23
+2707,Egypt,2005,10.23
 2708,Euro area,2005,58.41
 2709,Eritrea,2005,2.85
 2710,Spain,2005,67.95
@@ -2749,7 +2738,7 @@
 2747,Isle of Man,2005,0.01
 2748,India,2005,0.34
 2749,Ireland,2005,63.80
-2750,"Iran, Islamic Rep.",2005,2.64
+2750,Iran,2005,2.64
 2751,Iraq,2005,0.01
 2752,Iceland,2005,59.11
 2753,Israel,2005,21.66
@@ -2839,7 +2828,7 @@
 2837,French Polynesia,2005,0.01
 2838,Qatar,2005,0.01
 2839,Romania,2005,21.50
-2840,Russian Federation,2005,13.40
+2840,Russia,2005,13.40
 2841,Rwanda,2005,0.01
 2842,South Asia,2005,0.44
 2843,Saudi Arabia,2005,30.43
@@ -2888,10 +2877,10 @@
 2886,Ukraine,2005,30.31
 2887,Upper middle income,2005,14.43
 2888,Uruguay,2005,36.59
-2889,United States,2005,19.48
+2889,United States of America,2005,19.48
 2890,Uzbekistan,2005,0.92
 2891,St. Vincent and the Grenadines,2005,70.21
-2892,"Venezuela, RB",2005,3.10
+2892,Venezuela,2005,3.10
 2893,British Virgin Islands,2005,93.58
 2894,Virgin Islands (U.S.),2005,96.00
 2895,Vietnam,2005,3.98
@@ -2947,7 +2936,6 @@
 2945,Cote d'Ivoire,2006,0.01
 2946,Cameroon,2006,2.42
 2947,"Congo, Dem. Rep.",2006,0.10
-2948,"Congo, Rep.",2006,0.01
 2949,Colombia,2006,4.63
 2950,Comoros,2006,4.35
 2951,Cabo Verde,2006,34.03
@@ -2970,7 +2958,7 @@
 2968,Europe & Central Asia (excluding high income),2006,20.49
 2969,Europe & Central Asia,2006,49.43
 2970,Ecuador,2006,5.64
-2971,"Egypt, Arab Rep.",2006,10.57
+2971,Egypt,2006,10.57
 2972,Euro area,2006,59.67
 2973,Eritrea,2006,2.60
 2974,Spain,2006,68.41
@@ -3013,7 +3001,7 @@
 3011,Isle of Man,2006,0.01
 3012,India,2006,0.38
 3013,Ireland,2006,65.18
-3014,"Iran, Islamic Rep.",2006,3.73
+3014,Iran,2006,3.73
 3015,Iraq,2006,0.01
 3016,Iceland,2006,61.09
 3017,Israel,2006,20.64
@@ -3103,7 +3091,7 @@
 3101,French Polynesia,2006,0.01
 3102,Qatar,2006,0.01
 3103,Romania,2006,22.17
-3104,Russian Federation,2006,13.58
+3104,Russia,2006,13.58
 3105,Rwanda,2006,5.55
 3106,South Asia,2006,0.49
 3107,Saudi Arabia,2006,30.91
@@ -3152,10 +3140,10 @@
 3150,Ukraine,2006,31.70
 3151,Upper middle income,2006,14.62
 3152,Uruguay,2006,35.42
-3153,United States,2006,38.04
+3153,United States of America,2006,38.04
 3154,Uzbekistan,2006,2.07
 3155,St. Vincent and the Grenadines,2006,73.81
-3156,"Venezuela, RB",2006,3.18
+3156,Venezuela,2006,3.18
 3157,British Virgin Islands,2006,93.68
 3158,Virgin Islands (U.S.),2006,95.96
 3159,Vietnam,2006,4.06
@@ -3211,7 +3199,6 @@
 3209,Cote d'Ivoire,2007,0.94
 3210,Cameroon,2007,2.48
 3211,"Congo, Dem. Rep.",2007,0.08
-3212,"Congo, Rep.",2007,0.01
 3213,Colombia,2007,5.16
 3214,Comoros,2007,2.31
 3215,Cabo Verde,2007,35.98
@@ -3234,7 +3221,7 @@
 3232,Europe & Central Asia (excluding high income),2007,23.37
 3233,Europe & Central Asia,2007,50.19
 3234,Ecuador,2007,6.15
-3235,"Egypt, Arab Rep.",2007,12.42
+3235,Egypt,2007,12.42
 3236,Euro area,2007,59.80
 3237,Eritrea,2007,2.63
 3238,Spain,2007,68.62
@@ -3277,7 +3264,7 @@
 3275,Isle of Man,2007,0.01
 3276,India,2007,0.43
 3277,Ireland,2007,65.45
-3278,"Iran, Islamic Rep.",2007,3.02
+3278,Iran,2007,3.02
 3279,Iraq,2007,0.01
 3280,Iceland,2007,63.37
 3281,Israel,2007,24.21
@@ -3367,7 +3354,7 @@
 3365,French Polynesia,2007,48.05
 3366,Qatar,2007,0.01
 3367,Romania,2007,27.00
-3368,Russian Federation,2007,13.82
+3368,Russia,2007,13.82
 3369,Rwanda,2007,6.17
 3370,South Asia,2007,0.53
 3371,Saudi Arabia,2007,34.86
@@ -3416,10 +3403,10 @@
 3414,Ukraine,2007,36.00
 3415,Upper middle income,2007,15.24
 3416,Uruguay,2007,35.26
-3417,United States,2007,36.79
+3417,United States of America,2007,36.79
 3418,Uzbekistan,2007,3.25
 3419,St. Vincent and the Grenadines,2007,75.14
-3420,"Venezuela, RB",2007,3.19
+3420,Venezuela,2007,3.19
 3421,British Virgin Islands,2007,93.46
 3422,Virgin Islands (U.S.),2007,96.01
 3423,Vietnam,2007,4.72
@@ -3475,7 +3462,6 @@
 3473,Cote d'Ivoire,2008,1.03
 3474,Cameroon,2008,2.47
 3475,"Congo, Dem. Rep.",2008,0.08
-3476,"Congo, Rep.",2008,0.01
 3477,Colombia,2008,5.44
 3478,Comoros,2008,2.20
 3479,Cabo Verde,2008,37.21
@@ -3498,7 +3484,7 @@
 3496,Europe & Central Asia (excluding high income),2008,24.89
 3497,Europe & Central Asia,2008,50.11
 3498,Ecuador,2008,6.47
-3499,"Egypt, Arab Rep.",2008,13.88
+3499,Egypt,2008,13.88
 3500,Euro area,2008,59.73
 3501,Eritrea,2008,2.23
 3502,Spain,2008,68.00
@@ -3541,7 +3527,7 @@
 3539,Isle of Man,2008,0.01
 3540,India,2008,0.44
 3541,Ireland,2008,64.13
-3542,"Iran, Islamic Rep.",2008,2.74
+3542,Iran,2008,2.74
 3543,Iraq,2008,2.95
 3544,Iceland,2008,63.87
 3545,Israel,2008,29.33
@@ -3631,7 +3617,7 @@
 3629,French Polynesia,2008,46.23
 3630,Qatar,2008,0.01
 3631,Romania,2008,30.14
-3632,Russian Federation,2008,14.23
+3632,Russia,2008,14.23
 3633,Rwanda,2008,6.56
 3634,South Asia,2008,0.55
 3635,Saudi Arabia,2008,40.63
@@ -3680,10 +3666,10 @@
 3678,Ukraine,2008,38.39
 3679,Upper middle income,2008,15.44
 3680,Uruguay,2008,40.30
-3681,United States,2008,36.62
+3681,United States of America,2008,36.62
 3682,Uzbekistan,2008,3.77
 3683,St. Vincent and the Grenadines,2008,69.75
-3684,"Venezuela, RB",2008,2.48
+3684,Venezuela,2008,2.48
 3685,British Virgin Islands,2008,92.99
 3686,Virgin Islands (U.S.),2008,95.74
 3687,Vietnam,2008,4.68
@@ -3739,7 +3725,6 @@
 3737,Cote d'Ivoire,2009,1.14
 3738,Cameroon,2009,2.45
 3739,"Congo, Dem. Rep.",2009,0.08
-3740,"Congo, Rep.",2009,0.01
 3741,Colombia,2009,5.59
 3742,Comoros,2009,1.65
 3743,Cabo Verde,2009,37.10
@@ -3762,7 +3747,7 @@
 3760,Europe & Central Asia (excluding high income),2009,23.48
 3761,Europe & Central Asia,2009,49.14
 3762,Ecuador,2009,6.15
-3763,"Egypt, Arab Rep.",2009,13.38
+3763,Egypt,2009,13.38
 3764,Euro area,2009,59.06
 3765,Eritrea,2009,2.47
 3766,Spain,2009,66.47
@@ -3805,7 +3790,7 @@
 3803,Isle of Man,2009,0.01
 3804,India,2009,0.42
 3805,Ireland,2009,61.32
-3806,"Iran, Islamic Rep.",2009,2.82
+3806,Iran,2009,2.82
 3807,Iraq,2009,4.17
 3808,Iceland,2009,63.87
 3809,Israel,2009,26.80
@@ -3895,7 +3880,7 @@
 3893,French Polynesia,2009,41.73
 3894,Qatar,2009,47.24
 3895,Romania,2009,27.11
-3896,Russian Federation,2009,13.00
+3896,Russia,2009,13.00
 3897,Rwanda,2009,6.36
 3898,South Asia,2009,0.52
 3899,Saudi Arabia,2009,33.34
@@ -3944,10 +3929,10 @@
 3942,Ukraine,2009,34.29
 3943,Upper middle income,2009,14.99
 3944,Uruguay,2009,40.74
-3945,United States,2009,34.35
+3945,United States of America,2009,34.35
 3946,Uzbekistan,2009,4.19
 3947,St. Vincent and the Grenadines,2009,71.45
-3948,"Venezuela, RB",2009,1.98
+3948,Venezuela,2009,1.98
 3949,British Virgin Islands,2009,91.95
 3950,Virgin Islands (U.S.),2009,95.39
 3951,Vietnam,2009,4.12
@@ -4003,7 +3988,6 @@
 4001,Cote d'Ivoire,2010,1.21
 4002,Cameroon,2010,2.74
 4003,"Congo, Dem. Rep.",2010,0.13
-4004,"Congo, Rep.",2010,4.45
 4005,Colombia,2010,3.63
 4006,Comoros,2010,2.17
 4007,Cabo Verde,2010,40.55
@@ -4026,7 +4010,7 @@
 4024,Europe & Central Asia (excluding high income),2010,23.97
 4025,Europe & Central Asia,2010,49.48
 4026,Ecuador,2010,6.52
-4027,"Egypt, Arab Rep.",2010,15.11
+4027,Egypt,2010,15.11
 4028,Euro area,2010,59.40
 4029,Eritrea,2010,2.58
 4030,Spain,2010,66.81
@@ -4069,7 +4053,7 @@
 4067,Isle of Man,2010,0.01
 4068,India,2010,0.47
 4069,Ireland,2010,61.00
-4070,"Iran, Islamic Rep.",2010,3.83
+4070,Iran,2010,3.83
 4071,Iraq,2010,4.86
 4072,Iceland,2010,63.74
 4073,Israel,2010,31.12
@@ -4159,7 +4143,7 @@
 4157,French Polynesia,2010,40.18
 4158,Qatar,2010,47.80
 4159,Romania,2010,27.02
-4160,Russian Federation,2010,13.49
+4160,Russia,2010,13.49
 4161,Rwanda,2010,6.23
 4162,South Asia,2010,0.57
 4163,Saudi Arabia,2010,32.20
@@ -4208,10 +4192,10 @@
 4206,Ukraine,2010,34.46
 4207,Upper middle income,2010,15.40
 4208,Uruguay,2010,44.63
-4209,United States,2010,34.41
+4209,United States of America,2010,34.41
 4210,Uzbekistan,2010,3.30
 4211,St. Vincent and the Grenadines,2010,68.09
-4212,"Venezuela, RB",2010,1.85
+4212,Venezuela,2010,1.85
 4213,British Virgin Islands,2010,92.23
 4214,Virgin Islands (U.S.),2010,95.89
 4215,Vietnam,2010,5.43
@@ -4267,7 +4251,6 @@
 4265,Cote d'Ivoire,2011,1.27
 4266,Cameroon,2011,2.81
 4267,"Congo, Dem. Rep.",2011,0.28
-4268,"Congo, Rep.",2011,4.85
 4269,Colombia,2011,4.91
 4270,Comoros,2011,2.59
 4271,Cabo Verde,2011,46.18
@@ -4290,7 +4273,7 @@
 4288,Europe & Central Asia (excluding high income),2011,25.85
 4289,Europe & Central Asia,2011,50.79
 4290,Ecuador,2011,6.96
-4291,"Egypt, Arab Rep.",2011,10.43
+4291,Egypt,2011,10.43
 4292,Euro area,2011,60.55
 4293,Eritrea,2011,3.22
 4294,Spain,2011,67.97
@@ -4333,7 +4316,7 @@
 4331,Isle of Man,2011,0.01
 4332,India,2011,0.50
 4333,Ireland,2011,62.49
-4334,"Iran, Islamic Rep.",2011,4.30
+4334,Iran,2011,4.30
 4335,Iraq,2011,4.68
 4336,Iceland,2011,66.31
 4337,Israel,2011,30.21
@@ -4423,7 +4406,7 @@
 4421,French Polynesia,2011,42.27
 4422,Qatar,2011,50.26
 4423,Romania,2011,27.42
-4424,Russian Federation,2011,14.85
+4424,Russia,2011,14.85
 4425,Rwanda,2011,8.11
 4426,South Asia,2011,0.65
 4427,Saudi Arabia,2011,35.82
@@ -4472,10 +4455,10 @@
 4470,Ukraine,2011,34.93
 4471,Upper middle income,2011,15.65
 4472,Uruguay,2011,49.06
-4473,United States,2011,32.10
+4473,United States of America,2011,32.10
 4474,Uzbekistan,2011,4.53
 4475,St. Vincent and the Grenadines,2011,65.76
-4476,"Venezuela, RB",2011,2.12
+4476,Venezuela,2011,2.12
 4477,British Virgin Islands,2011,92.27
 4478,Virgin Islands (U.S.),2011,96.12
 4479,Vietnam,2011,6.34
@@ -4531,7 +4514,6 @@
 4529,Cote d'Ivoire,2012,1.32
 4530,Cameroon,2012,3.66
 4531,"Congo, Dem. Rep.",2012,0.24
-4532,"Congo, Rep.",2012,5.43
 4533,Colombia,2012,5.02
 4534,Comoros,2012,3.05
 4535,Cabo Verde,2012,48.82
@@ -4554,7 +4536,7 @@
 4552,Europe & Central Asia (excluding high income),2012,27.10
 4553,Europe & Central Asia,2012,51.38
 4554,Ecuador,2012,7.60
-4555,"Egypt, Arab Rep.",2012,11.77
+4555,Egypt,2012,11.77
 4556,Euro area,2012,60.74
 4557,Eritrea,2012,100.00
 4558,Spain,2012,67.72
@@ -4597,7 +4579,7 @@
 4595,Isle of Man,2012,0.01
 4596,India,2012,0.52
 4597,Ireland,2012,62.14
-4598,"Iran, Islamic Rep.",2012,4.83
+4598,Iran,2012,4.83
 4599,Iraq,2012,3.37
 4600,Iceland,2012,70.46
 4601,Israel,2012,30.79
@@ -4687,7 +4669,7 @@
 4685,French Polynesia,2012,43.84
 4686,Qatar,2012,51.42
 4687,Romania,2012,28.35
-4688,Russian Federation,2012,16.44
+4688,Russia,2012,16.44
 4689,Rwanda,2012,9.14
 4690,South Asia,2012,0.66
 4691,Saudi Arabia,2012,40.50
@@ -4736,10 +4718,10 @@
 4734,Ukraine,2012,35.47
 4735,Upper middle income,2012,15.87
 4736,Uruguay,2012,48.29
-4737,United States,2012,35.35
+4737,United States of America,2012,35.35
 4738,Uzbekistan,2012,5.98
 4739,St. Vincent and the Grenadines,2012,64.84
-4740,"Venezuela, RB",2012,3.49
+4740,Venezuela,2012,3.49
 4741,British Virgin Islands,2012,92.45
 4742,Virgin Islands (U.S.),2012,96.06
 4743,Vietnam,2012,7.09
@@ -4795,7 +4777,6 @@
 4793,Cote d'Ivoire,2013,1.69
 4794,Cameroon,2013,3.43
 4795,"Congo, Dem. Rep.",2013,0.27
-4796,"Congo, Rep.",2013,6.94
 4797,Colombia,2013,5.29
 4798,Comoros,2013,2.87
 4799,Cabo Verde,2013,49.57
@@ -4818,7 +4799,7 @@
 4816,Europe & Central Asia (excluding high income),2013,28.18
 4817,Europe & Central Asia,2013,52.18
 4818,Ecuador,2013,7.99
-4819,"Egypt, Arab Rep.",2013,9.67
+4819,Egypt,2013,9.67
 4820,Euro area,2013,61.51
 4821,Eritrea,2013,100.00
 4822,Spain,2013,68.89
@@ -4861,7 +4842,7 @@
 4859,Isle of Man,2013,0.01
 4860,India,2013,0.54
 4861,Ireland,2013,64.11
-4862,"Iran, Islamic Rep.",2013,5.87
+4862,Iran,2013,5.87
 4863,Iraq,2013,2.62
 4864,Iceland,2013,73.54
 4865,Israel,2013,30.52
@@ -4951,7 +4932,7 @@
 4949,French Polynesia,2013,44.18
 4950,Qatar,2013,52.78
 4951,Romania,2013,28.64
-4952,Russian Federation,2013,17.67
+4952,Russia,2013,17.67
 4953,Rwanda,2013,9.40
 4954,South Asia,2013,0.71
 4955,Saudi Arabia,2013,39.88
@@ -5000,10 +4981,10 @@
 4998,Ukraine,2013,36.39
 4999,Upper middle income,2013,16.10
 5000,Uruguay,2013,48.89
-5001,United States,2013,36.20
+5001,United States of America,2013,36.20
 5002,Uzbekistan,2013,6.11
 5003,St. Vincent and the Grenadines,2013,64.80
-5004,"Venezuela, RB",2013,3.52
+5004,Venezuela,2013,3.52
 5005,British Virgin Islands,2013,92.69
 5006,Virgin Islands (U.S.),2013,96.16
 5007,Vietnam,2013,7.70
@@ -5059,7 +5040,6 @@
 5057,Cote d'Ivoire,2014,2.04
 5058,Cameroon,2014,3.50
 5059,"Congo, Dem. Rep.",2014,0.45
-5060,"Congo, Rep.",2014,4.61
 5061,Colombia,2014,5.75
 5062,Comoros,2014,2.91
 5063,Cabo Verde,2014,48.80
@@ -5082,7 +5062,7 @@
 5080,Europe & Central Asia (excluding high income),2014,26.65
 5081,Europe & Central Asia,2014,52.49
 5082,Ecuador,2014,9.61
-5083,"Egypt, Arab Rep.",2014,9.85
+5083,Egypt,2014,9.85
 5084,Euro area,2014,62.12
 5085,Eritrea,2014,100.00
 5086,Spain,2014,69.74
@@ -5125,7 +5105,7 @@
 5123,Isle of Man,2014,0.01
 5124,India,2014,1.00
 5125,Ireland,2014,65.42
-5126,"Iran, Islamic Rep.",2014,6.03
+5126,Iran,2014,6.03
 5127,Iraq,2014,0.01
 5128,Iceland,2014,77.10
 5129,Israel,2014,28.35
@@ -5215,7 +5195,7 @@
 5213,French Polynesia,2014,45.63
 5214,Qatar,2014,53.58
 5215,Romania,2014,29.78
-5216,Russian Federation,2014,18.40
+5216,Russia,2014,18.40
 5217,Rwanda,2014,9.92
 5218,South Asia,2014,1.13
 5219,Saudi Arabia,2014,42.67
@@ -5264,10 +5244,10 @@
 5262,Ukraine,2014,22.61
 5263,Upper middle income,2014,16.28
 5264,Uruguay,2014,48.44
-5265,United States,2014,35.90
+5265,United States of America,2014,35.90
 5266,Uzbekistan,2014,5.71
 5267,St. Vincent and the Grenadines,2014,65.31
-5268,"Venezuela, RB",2014,3.12
+5268,Venezuela,2014,3.12
 5269,British Virgin Islands,2014,93.02
 5270,Virgin Islands (U.S.),2014,96.31
 5271,Vietnam,2014,7.91
@@ -5323,7 +5303,6 @@
 5321,Cote d'Ivoire,2015,5.84
 5322,Cameroon,2015,3.71
 5323,"Congo, Dem. Rep.",2015,0.46
-5324,"Congo, Rep.",2015,4.41
 5325,Colombia,2015,6.62
 5326,Comoros,2015,2.95
 5327,Cabo Verde,2015,49.77
@@ -5346,7 +5325,7 @@
 5344,Europe & Central Asia (excluding high income),2015,26.78
 5345,Europe & Central Asia,2015,53.11
 5346,Ecuador,2015,9.37
-5347,"Egypt, Arab Rep.",2015,9.17
+5347,Egypt,2015,9.17
 5348,Euro area,2015,62.72
 5349,Eritrea,2015,100.00
 5350,Spain,2015,70.28
@@ -5389,7 +5368,7 @@
 5387,Isle of Man,2015,0.01
 5388,India,2015,1.00
 5389,Ireland,2015,66.96
-5390,"Iran, Islamic Rep.",2015,6.25
+5390,Iran,2015,6.25
 5391,Iraq,2015,0.01
 5392,Iceland,2015,80.76
 5393,Israel,2015,27.06
@@ -5479,7 +5458,7 @@
 5477,French Polynesia,2015,46.67
 5478,Qatar,2015,53.41
 5479,Romania,2015,32.01
-5480,Russian Federation,2015,18.97
+5480,Russia,2015,18.97
 5481,Rwanda,2015,10.25
 5482,South Asia,2015,1.13
 5483,Saudi Arabia,2015,40.77
@@ -5528,10 +5507,10 @@
 5526,Ukraine,2015,22.39
 5527,Upper middle income,2015,16.72
 5528,Uruguay,2015,49.06
-5529,United States,2015,35.54
+5529,United States of America,2015,35.54
 5530,Uzbekistan,2015,5.77
 5531,St. Vincent and the Grenadines,2015,65.48
-5532,"Venezuela, RB",2015,2.85
+5532,Venezuela,2015,2.85
 5533,British Virgin Islands,2015,93.10
 5534,Virgin Islands (U.S.),2015,96.08
 5535,Vietnam,2015,7.89
@@ -5587,7 +5566,6 @@
 5585,Cote d'Ivoire,2016,6.23
 5586,Cameroon,2016,3.99
 5587,"Congo, Dem. Rep.",2016,0.44
-5588,"Congo, Rep.",2016,4.10
 5589,Colombia,2016,7.09
 5590,Comoros,2016,3.26
 5591,Cabo Verde,2016,52.96
@@ -5610,7 +5588,7 @@
 5608,Europe & Central Asia (excluding high income),2016,25.45
 5609,Europe & Central Asia,2016,53.68
 5610,Ecuador,2016,8.69
-5611,"Egypt, Arab Rep.",2016,5.41
+5611,Egypt,2016,5.41
 5612,Euro area,2016,63.43
 5613,Eritrea,2016,100.00
 5614,Spain,2016,71.31
@@ -5653,7 +5631,7 @@
 5651,Isle of Man,2016,0.01
 5652,India,2016,1.09
 5653,Ireland,2016,67.99
-5654,"Iran, Islamic Rep.",2016,5.85
+5654,Iran,2016,5.85
 5655,Iraq,2016,0.01
 5656,Iceland,2016,84.93
 5657,Israel,2016,26.43
@@ -5743,7 +5721,7 @@
 5741,French Polynesia,2016,46.74
 5742,Qatar,2016,52.54
 5743,Romania,2016,34.16
-5744,Russian Federation,2016,14.55
+5744,Russia,2016,14.55
 5745,Rwanda,2016,10.56
 5746,South Asia,2016,1.23
 5747,Saudi Arabia,2016,39.17
@@ -5792,10 +5770,10 @@
 5790,Ukraine,2016,23.38
 5791,Upper middle income,2016,17.01
 5792,Uruguay,2016,51.47
-5793,United States,2016,35.17
+5793,United States of America,2016,35.17
 5794,Uzbekistan,2016,5.98
 5795,St. Vincent and the Grenadines,2016,67.47
-5796,"Venezuela, RB",2016,2.23
+5796,Venezuela,2016,2.23
 5797,British Virgin Islands,2016,93.29
 5798,Virgin Islands (U.S.),2016,95.99
 5799,Vietnam,2016,9.66
@@ -5851,7 +5829,6 @@
 5849,Cote d'Ivoire,2017,6.86
 5850,Cameroon,2017,4.21
 5851,"Congo, Dem. Rep.",2017,0.01
-5852,"Congo, Rep.",2017,2.87
 5853,Colombia,2017,7.66
 5854,Comoros,2017,3.33
 5855,Cabo Verde,2017,55.41
@@ -5874,7 +5851,7 @@
 5872,Europe & Central Asia (excluding high income),2017,27.44
 5873,Europe & Central Asia,2017,54.89
 5874,Ecuador,2017,9.71
-5875,"Egypt, Arab Rep.",2017,7.92
+5875,Egypt,2017,7.92
 5876,Euro area,2017,64.42
 5877,Eritrea,2017,
 5878,Spain,2017,72.32
@@ -5917,7 +5894,7 @@
 5915,Isle of Man,2017,0.01
 5916,India,2017,1.15
 5917,Ireland,2017,68.26
-5918,"Iran, Islamic Rep.",2017,5.69
+5918,Iran,2017,5.69
 5919,Iraq,2017,0.01
 5920,Iceland,2017,87.26
 5921,Israel,2017,30.72
@@ -6007,7 +5984,7 @@
 6005,French Polynesia,2017,47.91
 6006,Qatar,2017,45.29
 6007,Romania,2017,35.81
-6008,Russian Federation,2017,14.44
+6008,Russia,2017,14.44
 6009,Rwanda,2017,11.59
 6010,South Asia,2017,1.31
 6011,Saudi Arabia,2017,35.98
@@ -6056,10 +6033,10 @@
 6054,Ukraine,2017,24.54
 6055,Upper middle income,2017,17.91
 6056,Uruguay,2017,55.11
-6057,United States,2017,34.90
+6057,United States of America,2017,34.90
 6058,Uzbekistan,2017,7.67
 6059,St. Vincent and the Grenadines,2017,73.40
-6060,"Venezuela, RB",2017,1.44
+6060,Venezuela,2017,1.44
 6061,British Virgin Islands,2017,91.89
 6062,Virgin Islands (U.S.),2017,94.80
 6063,Vietnam,2017,12.02
@@ -6115,7 +6092,6 @@
 6113,Cote d'Ivoire,2018,7.27
 6114,Cameroon,2018,3.80
 6115,"Congo, Dem. Rep.",2018,0.01
-6116,"Congo, Rep.",2018,2.92
 6117,Colombia,2018,8.13
 6118,Comoros,2018,4.13
 6119,Cabo Verde,2018,56.63
@@ -6138,7 +6114,7 @@
 6136,Europe & Central Asia (excluding high income),2018,29.85
 6137,Europe & Central Asia,2018,55.78
 6138,Ecuador,2018,12.92
-6139,"Egypt, Arab Rep.",2018,10.34
+6139,Egypt,2018,10.34
 6140,Euro area,2018,65.13
 6141,Eritrea,2018,
 6142,Spain,2018,72.67
@@ -6181,7 +6157,7 @@
 6179,Isle of Man,2018,0.01
 6180,India,2018,1.27
 6181,Ireland,2018,69.18
-6182,"Iran, Islamic Rep.",2018,8.19
+6182,Iran,2018,8.19
 6183,Iraq,2018,0.01
 6184,Iceland,2018,87.58
 6185,Israel,2018,33.07
@@ -6271,7 +6247,7 @@
 6269,French Polynesia,2018,48.74
 6270,Qatar,2018,39.54
 6271,Romania,2018,37.57
-6272,Russian Federation,2018,14.52
+6272,Russia,2018,14.52
 6273,Rwanda,2018,12.21
 6274,South Asia,2018,1.45
 6275,Saudi Arabia,2018,34.27
@@ -6320,10 +6296,10 @@
 6318,Ukraine,2018,24.32
 6319,Upper middle income,2018,18.41
 6320,Uruguay,2018,53.41
-6321,United States,2018,34.13
+6321,United States of America,2018,34.13
 6322,Uzbekistan,2018,13.96
 6323,St. Vincent and the Grenadines,2018,76.36
-6324,"Venezuela, RB",2018,0.01
+6324,Venezuela,2018,0.01
 6325,British Virgin Islands,2018,86.57
 6326,Virgin Islands (U.S.),2018,94.73
 6327,Vietnam,2018,13.96
@@ -6379,7 +6355,6 @@
 6377,Cote d'Ivoire,2019,7.45
 6378,Cameroon,2019,3.80
 6379,"Congo, Dem. Rep.",2019,0.01
-6380,"Congo, Rep.",2019,0.01
 6381,Colombia,2019,8.26
 6382,Comoros,2019,5.03
 6383,Cabo Verde,2019,57.95
@@ -6402,7 +6377,7 @@
 6400,Europe & Central Asia (excluding high income),2019,31.17
 6401,Europe & Central Asia,2019,56.57
 6402,Ecuador,2019,10.82
-6403,"Egypt, Arab Rep.",2019,11.49
+6403,Egypt,2019,11.49
 6404,Euro area,2019,65.70
 6405,Eritrea,2019,
 6406,Spain,2019,72.80
@@ -6445,7 +6420,7 @@
 6443,Isle of Man,2019,0.01
 6444,India,2019,1.29
 6445,Ireland,2019,68.94
-6446,"Iran, Islamic Rep.",2019,9.90
+6446,Iran,2019,9.90
 6447,Iraq,2019,0.01
 6448,Iceland,2019,85.93
 6449,Israel,2019,35.14
@@ -6535,7 +6510,7 @@
 6533,French Polynesia,2019,51.79
 6534,Qatar,2019,43.00
 6535,Romania,2019,39.81
-6536,Russian Federation,2019,14.46
+6536,Russia,2019,14.46
 6537,Rwanda,2019,11.46
 6538,South Asia,2019,1.45
 6539,Saudi Arabia,2019,37.19
@@ -6584,10 +6559,10 @@
 6582,Ukraine,2019,23.60
 6583,Upper middle income,2019,18.77
 6584,Uruguay,2019,50.13
-6585,United States,2019,33.51
+6585,United States of America,2019,33.51
 6586,Uzbekistan,2019,16.73
 6587,St. Vincent and the Grenadines,2019,78.00
-6588,"Venezuela, RB",2019,0.01
+6588,Venezuela,2019,0.01
 6589,British Virgin Islands,2019,90.97
 6590,Virgin Islands (U.S.),2019,95.11
 6591,Vietnam,2019,15.73
