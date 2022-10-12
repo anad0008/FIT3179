@@ -4,57 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Document</title>
+    <title>FIT3179 Assignment 2</title>
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="style/styles.css" media="all">
 </head>
+
 <body>
-    <h1> Heading 1</h1>
-    <p> Paragraph 1 </p>
-    <table border="1" cellpadding="10%">
-        <tr>
-            <th> First Name </th>
-            <th> Last Name </th>
-            <th> Grade </th>
-        </tr>
+    <h1> FIT3179 Assignment 2 | International Tourism Around the World</h1>
+    <p> By Adrian Nadonza 30572711 </p>
+    <p> <span class="bolded">Source:</span>  World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files </p>
+    
+    <div class="background bg-colour1">
+        <h2> Internation Visitors Around the World (Normalised)</h2>
+        <p> 
+            <span class="italics">The International Tourism to Population Ratio</span> 
+             </p>
 
-        <tr>
-            <td> John </td>
-            <td> Doe </td>
-            <td> HD </td>
-        </tr>
+             <div id="vis1" class="vis-container"></div>
 
-        <tr>
-            <td> Adrian </td>
-            <td> N </td>
-            <td> HDD </td>
-        </tr>
-
-        <tr>
-            <td> Mary </td>
-            <td> Sue </td>
-            <td> P </td>
-        </tr>
-    </table>
-    <div style="color: green;">
-        <h2> Heading 2</h2>
-        <p> Paragraph 2 </p>
-    </div>
-    <h3> P I C T U R E</h3>
-        <img src="BOTW2.jpg" />
-    <h4> Links</h4>
-        <a href="https://www.monash.edu/">
-            Click Here plox
-        </a>
-
-    <div style="color: red;">
-        <h5> Heading 5</h5>
-        <p> Paragraph 5 </p>
     </div>
 
-    <div style="color: red;">
-        <h5> Heading 5</h5>
-        <p>  </p>
+    <div class="background bg-colour2">
+        <h2> International tourism receipts | % of total exports receipts by country</h2>
+        <p>  
+            <span class="italics">Expenditures by international inbound visitors, 
+                including payments to national carriers for international transport.</span> 
+        </p>
+
+        <div id="vis2" class="vis-container"></div>
+        <p>
+            <span class="bolded">Key Values:</span> The country with the highest value in the world is St. Lucia, with a value of 88.77. 
+            The country with the lowest value in the world is Guinea, with a value of 0.01.
+        </p>
+        <p> <span class="bolded">Development Relevance: (TO CHANGE)</span> 
+            Tourism is officially recognized as a directly measurable activity, enabling more accurate analysis and more effective policy. Whereas previously the sector relied mostly on approximations from related areas of measurement (e.g. Balance of Payments statistics), tourism today possesses a range of instruments to track its productive activities and the activities of the consumers that drive them: visitors (both tourists and excursionists). An increasing number of countries have opened up and invested in tourism development, making tourism a key driver of socio-economic progress through export revenues, the creation of jobs and enterprises, and infrastructure development. As an internationally traded service, inbound tourism has become one of the world's major trade categories. For many developing countries it is one of the main sources of foreign exchange income and a major component of exports, creating much needed employment and development opportunities. This measure reflects the importance of tourism as an internationally traded service relative to other categories of exports. Such a measure reveals the degree of tourism specialization in a country's export structure and the relative capability of tourism in generating foreign revenues.
+        </p>
     </div>
+    
+    <div class="background bg-colour3">
+        <h2> International tourism expenditures | % of total import expenditures worldwide </h2>
+        <p>  
+            <span class="italics">Expenditures of international outbound visitors in other countries, 
+            including payments to foreign carriers for international transport.</span>  
+        </p>
+
+
+        <div id="vis3" class="vis-container" style="margin-left: 15px;"></div>
+
+        <p>
+            <span class="bolded">Key Values:</span> The country with the highest value in the world is Qatar, with a value of 19.48. 
+            The country with the lowest value in the world is Sudan, with a value of 0.16.
+        </p>
+        <p> 
+            <span class="bolded">Development Relevance: (TO CHANGE)</span> 
+            Tourism is officially recognized as a directly measurable activity, enabling more accurate analysis and more effective policy. Whereas previously the sector relied mostly on approximations from related areas of measurement (e.g. Balance of Payments statistics), tourism today possesses a range of instruments to track its productive activities and the activities of the consumers that drive them: visitors (both tourists and excursionists). An increasing number of countries have opened up and invested in tourism development, making tourism a key driver of socio-economic progress through export revenues, the creation of jobs and enterprises, and infrastructure development. As an internationally traded service, inbound tourism has become one of the world's major trade categories. For many developing countries it is one of the main sources of foreign exchange income and a major component of exports, creating much needed employment and development opportunities. This measure reflects the importance of tourism as an internationally traded service relative to other categories of imports. Such a measure reveals the predilection for tourism in a country's import structure and the relative degree of an economy's domestic revenue outflows due to international tourism.
+        </p>
+            
+        </div>
+
+    <script type="text/javascript">
+        var graph1 = "./json/graph1.json";
+        var graph2 = "./json/graph2.json";
+        var graph3 = "./json/graph3.json";
+        
+    
+        vegaEmbed('#vis1', graph1, { "actions": false });
+    
+        vegaEmbed('#vis2', graph2, { "actions": false }).then(function (result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    
+        vegaEmbed('#vis3', graph3, { "actions": false }).then(function (result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    
+      </script>
 
 </body>
-<script src = "test.js"> </script>
+
 </html>
