@@ -22,6 +22,7 @@ body {
 .bg-colour1 {background: seashell;}
 .bg-colour2 {background: Snow;}
 .bg-colour3 {background: LavenderBlush;}
+.bg-colour4 {background: orange;}
 
 .bolded { font-weight: bold; }
 .italics {font-style: italic;}
@@ -30,8 +31,8 @@ body {
     width: 850px;
     background-color: white;
     margin: auto;
-    padding: 50px;
-    padding-top: 35px;
+    padding: 0px;
+    padding-top: 0px;
 }
 
 .vis-container {
