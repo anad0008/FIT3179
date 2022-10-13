@@ -28,7 +28,7 @@
                 <span class="italics">The International Tourism to Population Ratio</span> 
                 </p>
 
-                <div id="vis1" class="vis-container"></div>
+                <div id="vis1"></div>
 
         </div>
 
@@ -73,10 +73,9 @@
     <script type="text/javascript">
         var graph1 = "./graph1.json";
         var graph2 = "./graph2.json";
-        var graph3 = "./graph3.json";
+        var graph3 = "./graph3.json"; 
     
-        vegaEmbed('#vis1', graph1, { "actions": false }).then(function (result) {
-        }).catch(console.error);
+        vegaEmbed('#vis1', graph1);
     
         vegaEmbed('#vis2', graph2, { "actions": false }).then(function (result) {
         }).catch(console.error);

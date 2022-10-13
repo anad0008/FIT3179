@@ -28,7 +28,22 @@
 },
   {
   "name": "center_to",
-  "value": [0, 0]
+  "value": [0, 0],
+  "bind": {
+  "input": "select",
+  "options": [
+    [0,0],
+    [100, 20],
+    [30, 0],
+    [-100, 30],
+    [-80, -20],
+    [50, 30],
+    [150, -20]
+  
+    ],
+    "labels": ["Centre", "Asia", "Africa", "North America", "South America", "Europe", "Oceania"],
+    "name": "Continent Centre: "
+  }
   }
   ],
   "projection": {
@@ -60,7 +75,7 @@
   "encoding": {
     "color": {
       "field": "Visitation Numbers to Population Ratio",
-      "title":"International Visitors : Population",
+      "title":"International Visitors to Population Ratio",
       "type": "quantitative",
       "scale":
         {"type": "log", "scheme": "purples"}
