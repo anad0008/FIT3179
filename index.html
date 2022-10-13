@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>FIT3179 Assignment 2</title>
+
     <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
     <!-- CSS file -->
     <link rel="stylesheet" type="text/css" href="style/styles.css" media="all">
@@ -68,23 +70,20 @@
         </div>
 
     <script type="text/javascript">
-        var graph1 = "./json/graph1.json";
-        var graph2 = "./json/graph2.json";
-        var graph3 = "./json/graph3.json";
-        
+        var graph1 = "./graph1.json";
+        var graph2 = "./graph2.json";
+        var graph3 = "./graph3.json";
     
-        vegaEmbed('#vis1', graph1, { "actions": false });
+        vegaEmbed('#vis1', graph1, { "actions": false }).then(function (result) {
+        }).catch(console.error);
     
         vegaEmbed('#vis2', graph2, { "actions": false }).then(function (result) {
-          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
     
         vegaEmbed('#vis3', graph3, { "actions": false }).then(function (result) {
-          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
     
       </script>
-
 </body>
 
 </html>
