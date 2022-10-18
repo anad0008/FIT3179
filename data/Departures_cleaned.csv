@@ -1,0 +1,276 @@
+,CountryName,Year,Departure
+0,Australia,1995,2519000.0
+1,East Asia & Pacific,1995,93487907.38
+2,Europe & Central Asia,1995,
+3,Latin America & Caribbean,1995,122587874.3
+4,North America,1995,97468466.59
+5,New Caledonia,1995,59000.0
+6,New Zealand,1995,920000.0
+7,Papua New Guinea,1995,51000.0
+8,South Asia,1995,5180862.041999999
+9,World,1995,
+10,Oceania,1995,3549000.0
+11,Australia,1996,2732000.0
+12,East Asia & Pacific,1996,105058885.9
+13,Europe & Central Asia,1996,
+14,Latin America & Caribbean,1996,124397030.8
+15,North America,1996,101118053.8
+16,New Caledonia,1996,64000.0
+17,New Zealand,1996,1093000.0
+18,Papua New Guinea,1996,
+19,South Asia,1996,5751421.373
+20,World,1996,
+21,Oceania,1996,3889000.0
+22,Australia,1997,2933000.0
+23,East Asia & Pacific,1997,111012952.2
+24,Europe & Central Asia,1997,373271895.5
+25,Latin America & Caribbean,1997,129286514.7
+26,North America,1997,103327291.6
+27,New Caledonia,1997,63000.0
+28,New Zealand,1997,1132000.0
+29,Papua New Guinea,1997,64000.0
+30,South Asia,1997,6058469.367000001
+31,World,1997,930066023.1
+32,Oceania,1997,4192000.0
+33,Australia,1998,3161000.0
+34,East Asia & Pacific,1998,110742415.3
+35,Europe & Central Asia,1998,406716446.7
+36,Latin America & Caribbean,1998,131080097.5
+37,North America,1998,108958346.6
+38,New Caledonia,1998,68000.0
+39,New Zealand,1998,1166000.0
+40,Papua New Guinea,1998,65000.0
+41,South Asia,1998,6278444.049
+42,World,1998,982125955.1
+43,Oceania,1998,4460000.0
+44,Australia,1999,3210000.0
+45,East Asia & Pacific,1999,119896552.5
+46,Europe & Central Asia,1999,431290829.6
+47,Latin America & Caribbean,1999,140035995.9
+48,North America,1999,111304509.8
+49,New Caledonia,1999,69000.0
+50,New Zealand,1999,1185000.0
+51,Papua New Guinea,1999,58000.0
+52,South Asia,1999,6739016.039
+53,World,1999,1043185311.0
+54,Oceania,1999,4522000.0
+55,Australia,2000,3498000.0
+56,East Asia & Pacific,2000,134784939.1
+57,Europe & Central Asia,2000,457405981.2
+58,Latin America & Caribbean,2000,152083148.4
+59,North America,2000,115824362.9
+60,New Caledonia,2000,69000.0
+61,New Zealand,2000,1283000.0
+62,Papua New Guinea,2000,52000.0
+63,South Asia,2000,7177819.7020000005
+64,World,2000,1122419167.0
+65,Oceania,2000,4902000.0
+66,Australia,2001,3443000.0
+67,East Asia & Pacific,2001,142852067.0
+68,Europe & Central Asia,2001,453096545.8
+69,Latin America & Caribbean,2001,147966602.3
+70,North America,2001,111587576.6
+71,New Caledonia,2001,68000.0
+72,New Zealand,2001,1287000.0
+73,Papua New Guinea,2001,38000.0
+74,South Asia,2001,7315303.878
+75,World,2001,1121398704.0
+76,Oceania,2001,4836000.0
+77,Australia,2002,3461000.0
+78,East Asia & Pacific,2002,146849553.8
+79,Europe & Central Asia,2002,457281193.3
+80,Latin America & Caribbean,2002,148796394.3
+81,North America,2002,106504719.5
+82,New Caledonia,2002,72000.0
+83,New Zealand,2002,1293000.0
+84,Papua New Guinea,2002,92000.0
+85,South Asia,2002,7919088.552
+86,World,2002,1127808612.0
+87,Oceania,2002,4918000.0
+88,Australia,2003,3388000.0
+89,East Asia & Pacific,2003,144565260.1
+90,Europe & Central Asia,2003,467949386.2
+91,Latin America & Caribbean,2003,148266969.7
+92,North America,2003,99923424.98
+93,New Caledonia,2003,78000.0
+94,New Zealand,2003,1374000.0
+95,Papua New Guinea,2003,
+96,South Asia,2003,8739410.803
+97,World,2003,1130457014.0
+98,Oceania,2003,4840000.0
+99,Australia,2004,4369000.0
+100,East Asia & Pacific,2004,168503338.3
+101,Europe & Central Asia,2004,477522968.1
+102,Latin America & Caribbean,2004,155920936.3
+103,North America,2004,104905071.9
+104,New Caledonia,2004,89000.0
+105,New Zealand,2004,1733000.0
+106,Papua New Guinea,2004,
+107,South Asia,2004,10087901.43
+108,World,2004,1201164309.0
+109,Oceania,2004,6191000.0
+110,Australia,2005,4756000.0
+111,East Asia & Pacific,2005,178980034.5
+112,Europe & Central Asia,2005,504648379.4
+113,Latin America & Caribbean,2005,157601258.8
+114,North America,2005,104333299.8
+115,New Caledonia,2005,96000.0
+116,New Zealand,2005,1872000.0
+117,Papua New Guinea,2005,
+118,South Asia,2005,11604810.18
+119,World,2005,1254803572.0
+120,Oceania,2005,6724000.0
+121,Australia,2006,4941000.0
+122,East Asia & Pacific,2006,191973606.5
+123,Europe & Central Asia,2006,516208188.5
+124,Latin America & Caribbean,2006,152165563.9
+125,North America,2006,195429088.7
+126,New Caledonia,2006,100000.0
+127,New Zealand,2006,1861000.0
+128,Papua New Guinea,2006,
+129,South Asia,2006,13066725.25
+130,World,2006,1383150802.0
+131,Oceania,2006,6902000.0
+132,Australia,2007,5462000.0
+133,East Asia & Pacific,2007,209160640.0
+134,Europe & Central Asia,2007,543821360.1
+135,Latin America & Caribbean,2007,141098688.9
+136,North America,2007,190429282.1
+137,New Caledonia,2007,106000.0
+138,New Zealand,2007,1978000.0
+139,Papua New Guinea,2007,
+140,South Asia,2007,15516234.99
+141,World,2007,1425571396.0
+142,Oceania,2007,7546000.0
+143,Australia,2008,5808000.0
+144,East Asia & Pacific,2008,214079069.4
+145,Europe & Central Asia,2008,562146928.2
+146,Latin America & Caribbean,2008,140636724.3
+147,North America,2008,187919387.2
+148,New Caledonia,2008,112000.0
+149,New Zealand,2008,1967000.0
+150,Papua New Guinea,2008,
+151,South Asia,2008,15344379.77
+152,World,2008,1453143997.0
+153,Oceania,2008,7887000.0
+154,Australia,2009,6276000.0
+155,East Asia & Pacific,2009,212759734.0
+156,Europe & Central Asia,2009,539873168.0
+157,Latin America & Caribbean,2009,129886598.0
+158,North America,2009,177467474.7
+159,New Caledonia,2009,119000.0
+160,New Zealand,2009,1918000.0
+161,Papua New Guinea,2009,
+162,South Asia,2009,17197962.35
+163,World,2009,1397423334.0
+164,Oceania,2009,8313000.0
+165,Australia,2010,7103000.0
+166,East Asia & Pacific,2010,236680060.3
+167,Europe & Central Asia,2010,554242170.5
+168,Latin America & Caribbean,2010,126208450.3
+169,North America,2010,175226064.5
+170,New Caledonia,2010,132000.0
+171,New Zealand,2010,2026000.0
+172,Papua New Guinea,2010,
+173,South Asia,2010,19412317.08
+174,World,2010,1457015080.0
+175,Oceania,2010,9261000.0
+176,Australia,2011,7788000.0
+177,East Asia & Pacific,2011,254609640.2
+178,Europe & Central Asia,2011,573579334.7
+179,Latin America & Caribbean,2011,127572515.4
+180,North America,2011,176030211.6
+181,New Caledonia,2011,124000.0
+182,New Zealand,2011,2096000.0
+183,Papua New Guinea,2011,
+184,South Asia,2011,20968725.15
+185,World,2011,1504559276.0
+186,Oceania,2011,10008000.0
+187,Australia,2012,8212000.0
+188,East Asia & Pacific,2012,275983951.2
+189,Europe & Central Asia,2012,585069762.8
+190,Latin America & Caribbean,2012,129608833.0
+191,North America,2012,181537219.4
+192,New Caledonia,2012,121000.0
+193,New Zealand,2012,2172000.0
+194,Papua New Guinea,2012,
+195,South Asia,2012,22344747.15
+196,World,2012,1564352745.0
+197,Oceania,2012,10505000.0
+198,Australia,2013,9052000.0
+199,East Asia & Pacific,2013,296517180.4
+200,Europe & Central Asia,2013,608350743.4
+201,Latin America & Caribbean,2013,137178744.1
+202,North America,2013,184781813.1
+203,New Caledonia,2013,121000.0
+204,New Zealand,2013,2197000.0
+205,Papua New Guinea,2013,
+206,South Asia,2013,23509162.41
+207,World,2013,1641229336.0
+208,Oceania,2013,11370000.0
+209,Australia,2014,9480000.0
+210,East Asia & Pacific,2014,321003450.4
+211,Europe & Central Asia,2014,587759571.4
+212,Latin America & Caribbean,2014,139146199.5
+213,North America,2014,185469939.0
+214,New Caledonia,2014,124000.0
+215,New Zealand,2014,2276000.0
+216,Papua New Guinea,2014,
+217,South Asia,2014,25813028.78
+218,World,2014,1651310269.0
+219,Oceania,2014,11880000.0
+220,Australia,2015,9810000.0
+221,East Asia & Pacific,2015,345737393.8
+222,Europe & Central Asia,2015,604738772.9
+223,Latin America & Caribbean,2015,148044581.0
+224,North America,2015,186369103.6
+225,New Caledonia,2015,127000.0
+226,New Zealand,2015,2412000.0
+227,Papua New Guinea,2015,
+228,South Asia,2015,28561108.98
+229,World,2015,1744980358.0
+230,Oceania,2015,12349000.0
+231,Australia,2016,10390000.0
+232,East Asia & Pacific,2016,366330196.1
+233,Europe & Central Asia,2016,626599435.2
+234,Latin America & Caribbean,2016,156262752.7
+235,North America,2016,194540598.9
+236,New Caledonia,2016,134000.0
+237,New Zealand,2016,2611000.0
+238,Papua New Guinea,2016,
+239,South Asia,2016,30648125.41
+240,World,2016,1820356515.0
+241,Oceania,2016,13135000.0
+242,Australia,2017,10932000.0
+243,East Asia & Pacific,2017,384699656.3
+244,Europe & Central Asia,2017,682564892.6
+245,Latin America & Caribbean,2017,157876705.2
+246,North America,2017,203037153.6
+247,New Caledonia,2017,135000.0
+248,New Zealand,2017,2853000.0
+249,Papua New Guinea,2017,
+250,South Asia,2017,33358092.59
+251,World,2017,1934268135.0
+252,Oceania,2017,13920000.0
+253,Australia,2018,11403000.0
+254,East Asia & Pacific,2018,402010474.2
+255,Europe & Central Asia,2018,729507921.2
+256,Latin America & Caribbean,2018,147336636.6
+257,North America,2018,196550372.9
+258,New Caledonia,2018,139000.0
+259,New Zealand,2018,3038000.0
+260,Papua New Guinea,2018,
+261,South Asia,2018,36499131.17
+262,World,2018,1991161437.0
+263,Oceania,2018,14580000.0
+264,Australia,2019,11624000.0
+265,East Asia & Pacific,2019,415489956.3
+266,Europe & Central Asia,2019,740715759.5
+267,Latin America & Caribbean,2019,140808231.3
+268,North America,2019,208814203.0
+269,New Caledonia,2019,144000.0
+270,New Zealand,2019,3225000.0
+271,Papua New Guinea,2019,
+272,South Asia,2019,37266648.54
+273,World,2019,2034431899.0
+274,Oceania,2019,14993000.0
