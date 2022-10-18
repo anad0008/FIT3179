@@ -19,17 +19,17 @@ body {
 	background-color: azure;
 }
 
-.bg-colour1 {background: seashell;}
-.bg-colour2 {background: Snow;}
-.bg-colour3 {background: LavenderBlush;}
-.bg-colour4 {background: orange;}
+.bg-colour1 {background: SlateBlue;}
+.bg-colour2 {background: lightcyan;}
+.bg-colour3 {background: Lavender;}
+.bg-colour4 {background: powderblue;}
 
 .bolded { font-weight: bold; }
 .italics {font-style: italic;}
 
 .page {
     width: 850px;
-    background-color: white;
+    background-color: azure;
     margin: auto;
     padding: 0px;
     padding-top: 0px;
