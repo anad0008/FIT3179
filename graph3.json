@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {"url": "https://raw.githubusercontent.com/anad0008/FIT3179/main/data/%25__cleaned.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/anad0008/FIT3179/main/data/GRAPH3_4_cleaned.csv"},
   
   "transform": [
     {"calculate": "datum.Year", "as": "Year"},
