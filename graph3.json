@@ -1,98 +1,24 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Tourism Arrivals vs Departures by region",
-  "data": { 
-    "url": "https://raw.githubusercontent.com/anad0008/FIT3179/main/data/Dep_vs_Arr.csv"
-    },
-    "transform": [
-  ],
-  "spacing": 0,
-  "params":[{
-    "name": "Region_Select",
-    "value": "South Asia",
-    "bind": {
-    "input": "select",
-    "options": [
-      ["South Asia"], 
-      ["East Asia & Pacific"], 
-      ["North America"], 
-      ["Latin America & Caribbean"], 
-      ["Europe & Central Asia"], 
-      ["Oceania"]
-      ],
-      "name": "Regions: "
-    }
-  }],
+  "data": {"url": "https://raw.githubusercontent.com/anad0008/FIT3179/main/data/%25__cleaned.csv"},
   
-  "hconcat": [{
-    "transform": [
-      {"filter": "datum.CountryName == Region_Select"},
-      {"calculate": "datum.Departures", "as": "Departures"},
-      {"calculate": "datum.Year", "as": "Year"}
-  ],
-
-    "title": "Departures",
-    "mark": "bar",
-    "encoding": {
-      "y": {
-        "field": "Year", "title": "Departures",
-        "axis": null, "sort": "descending"
-      },
-      "x": {
-        "aggregate": "sum", "field": "Departures",
-        "title": "People travelling",
-        "axis": {"format": "s"},
-        "sort": "descending"
-      },
-      "color": {
-        "field": "Region_Select",
-        "scale": {"range": ["#675193", "#ca8861"]},
-        "legend": null
-      },
-      "tooltip": [
-      {"field": "Departures", "title": "Number: ", "type": "quantitative", "format": ","}
-      ]
-    }
-  }, {
-    "width": 20,
-    "view": {"stroke": null},
-    "mark": {
-      "type": "text",
-      "align": "center"
-    },
-    "encoding": {
-      "y": {"field": "Year", "type": "ordinal", "axis": null, "sort": "descending"},
-      "text": {"field": "Year", "type": "quantitative"}
-    }
-  }, 
-  {
-    "transform": [
-      {"filter": "datum.CountryName == Region_Select"},
-      {"calculate": "datum.Arrivals", "as": "Arrivals"},
-      {"calculate": "datum.Year", "as": "Year"}
-    ],
-
-    "title": "Arrivals",
-    "mark": "bar",
-    "encoding": {
-      "y": {
-        "field": "Year", "title": "Arrivals",
-        "axis": null, "sort": "descending"
-      },
-      "x": {
-        "aggregate": "sum", "field": "Arrivals",
-        "title": "People travelling",
-        "axis": {"format": "s"}
-      },
-      
-      "tooltip": [
-      {"field": "Arrivals", "title": "Number: ", "type": "quantitative", "format": ","}
+  "transform": [
+    {"calculate": "datum.Year", "as": "Year"},
+    {"calculate": "datum.CountryName", "as": "Region"},
+    {"calculate": "datum.expend_import_OG", "as": "expend_import"}],
+    
+  
+   "mark": {
+    "type": "line",
+    "point": true
+  },
+  "encoding": {
+    "x": {"field": "Year", "type": "nominal"},
+    "y": {"field": "expend_import", "type": "quantitative", "title": "% of total import expenditure " },
+    "color": {"field": "Region", "type": "nominal", "title": "Region"},
+    "tooltip": [
+      {"field": "Region", "title": "Region: ", "type": "nominal"},
+      {"field": "expend_import", "title": "%: ", "type": "quantitative"}
      ]
-    }
-    }],
-  "config": {
-    "view": {"stroke": null},
-    "axis": {"grid": false}
   }
-
 }

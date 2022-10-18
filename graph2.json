@@ -1,73 +1,24 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "International Visitors around the world ",
-  "width": 800,
-  "height": 400,
-  "params": [
-    {
-      "name": "Year_selection",
-      "value": 2019,
-      "bind": {
-      "input": "range",
-      "min": 1995,
-      "max": 2019,
-      "step": 1,
-      "name": "Year: "
-    }
-  },
-  {
-    "name": "zoom_level",
-    "value": 150,
-    "bind": {
-    "input": "range",
-    "min": 150,
-    "max": 2500,
-    "step": 100,
-    "name": "Zoom: "
-  }
-},
-  {
-  "name": "center_to",
-  "value": [0, 0]
-  }
-  ],
-  "projection": {
-    "type": "equalEarth",
-    "center": {"expr": "center_to"},
-    "scale": {"expr": "zoom_level"}
-  },
-  "data": {
-    "url": "https://raw.githubusercontent.com/anad0008/FIT3179/main/js/choropleth_map/ne_110m_admin_0_countries.topojson",
-    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
-          },
+  "data": {"url": "https://raw.githubusercontent.com/anad0008/FIT3179/main/data/%25__cleaned.csv"},
+  
   "transform": [
-    {
-      "lookup": "properties.NAME",
-      "from": {
-        "data": {
-          "url": "https://raw.githubusercontent.com/anad0008/FIT3179/main/data/Normalised_Data.csv"
-        },
-        "key": "Country Name",
-        "fields": ["Country Name","Year","Normalised"]
-      }
-    },
-    {"filter": "datum.Year == Year_selection"},
+    {"calculate": "datum.Year", "as": "Year"},
+    {"calculate": "datum.CountryName", "as": "Region"},
+    {"calculate": "datum.receipts_export", "as": "receipts_export"}],
     
-    {"calculate": "datum.Normalised + 1", "as": "Visitation Numbers to Population Ratio"}
-    
-  ],
-  "mark": {"type": "geoshape"},
+  
+   "mark": {
+    "type": "line",
+    "point": true
+  },
   "encoding": {
-    "color": {
-      "field": "Visitation Numbers to Population Ratio",
-      "title":"International Visitors : Population",
-      "type": "quantitative",
-      "scale":
-        {"type": "log", "scheme": "purples"}
-    },
+    "x": {"field": "Year", "type": "nominal"},
+    "y": {"field": "receipts_export", "type": "quantitative", "title": "% of total exports receipts " },
+    "color": {"field": "Region", "type": "nominal", "title": "Region"},
     "tooltip": [
-      {"field": "Country Name", "type": "nominal", "title": "Country"},
-      {"field": "Visitation Numbers to Population Ratio", "type": "quantitative", "format":".2f"}
-    ]
+      {"field": "Region", "title": "Region: ", "type": "nominal"},
+      {"field": "receipts_export", "title": "%: ", "type": "quantitative"}
+     ]
   }
 }

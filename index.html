@@ -56,20 +56,14 @@
         </div>
 
         <div class="background bg-colour2">
-            <h2> International tourism receipts | % of total exports receipts by country (Dot Plot)</h2>
+            <h2> International tourism receipts | % of total exports receipts by Region </h2>
             <p>  
                 <span class="italics">Expenditures by international inbound visitors, <br>
                     including payments to national carriers for international transport.</span> 
             </p>
 
             <div id="vis2" class="vis-container"></div>
-            <p>
-                <span class="bolded">Key Values:</span> <br>
-                <span class="bolded">Highest value</span> - St. Lucia, 88.77.  <br>
-                <span class="bolded">Lowest value </span> - Guinea, 0.01.<br>
-                 
-                
-            </p>
+           
             <p> <span class="bolded">Meaning: </span> <br>
                 Reflects the importance of tourism as an internationally traded service <br>
                 relative to other categories of exports. <br>
@@ -79,7 +73,7 @@
         </div>
 
         <div class="background bg-colour3">
-            <h2> International tourism expenditures | % of total import expenditures worldwide (Line Graph)</h2>
+            <h2> International tourism expenditures | % of total import expenditures by Region </h2>
             <p>  
                 <span class="italics">Expenditures of international outbound visitors in other countries, <br>
                 including payments to foreign carriers for international transport.</span>  
@@ -130,8 +124,7 @@
     
         vegaEmbed('#vis2', graph2, { "actions": false });
     
-        vegaEmbed('#vis3', graph3, { "actions": false }).then(function (result) {
-        }).catch(console.error);
+        vegaEmbed('#vis3', graph3, { "actions": false });
 
         vegaEmbed('#vis4', graph4, { "actions": false });
     
