@@ -19,7 +19,7 @@ body {
 	background-color: azure;
 }
 
-.bg-colour1 {background: SlateBlue;}
+.bg-colour1 {background: PaleTurquoise;}
 .bg-colour2 {background: lightcyan;}
 .bg-colour3 {background: Lavender;}
 .bg-colour4 {background: powderblue;}
@@ -28,7 +28,7 @@ body {
 .italics {font-style: italic;}
 
 .page {
-    width: 850px;
+    width: 1000px;
     background-color: azure;
     margin: auto;
     padding: 0px;
