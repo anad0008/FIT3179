@@ -107,25 +107,15 @@
         </div>
 
         <div class="background bg-colour4">
-            <h2> Departures vs Arrival ()</h2>
+            <h2> Departures vs Arrival by Region</h2>
             <p>  
-                <span class="italics">Expenditures of international outbound visitors in other countries, <br>
-                including payments to foreign carriers for international transport.</span>  
+                <span class="italics">Departures numbers compared to Arrival Numbers <br>
+                sorted by region. </span>  
             </p>
 
 
             <div id="vis4" class="vis-container">
-                
-
             </div>
-
-            <p>
-                <span class="bolded">Key Values:</span> ...
-            </p>
-            <p> 
-                <span class="bolded">Development Relevance: (TO CHANGE)</span> 
-                ...
-            </p>
                 
         </div>
     </div>
@@ -134,7 +124,7 @@
         var graph1 = "./graph1.json";
         var graph2 = "./graph2.json";
         var graph3 = "./graph3.json"; 
-        var graph3 = "./graph4.json"; 
+        var graph4 = "./graph4.json"; 
     
         vegaEmbed('#vis1', graph1);
     
@@ -143,7 +133,7 @@
         vegaEmbed('#vis3', graph3, { "actions": false }).then(function (result) {
         }).catch(console.error);
 
-        vegaEmbed('#vis1', graph4);
+        vegaEmbed('#vis4', graph4, { "actions": false });
     
       </script>
 </body>
