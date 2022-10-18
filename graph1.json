@@ -36,7 +36,7 @@
     [100, 20],
     [30, 0],
     [-100, 30],
-    [-80, -20],
+    [-70, -20],
     [50, 30],
     [150, -20]
   
@@ -66,23 +66,23 @@
         "fields": ["Country Name","Year","Normalised"]
       }
     },
-    {"filter": "datum.Year == Year_selection"},
     
-    {"calculate": "datum.Normalised + 1", "as": "Visitation Numbers to Population Ratio"}
+    {"calculate": "datum.Normalised + 1", "as": "International Visitors : Population"},
+    {"filter": "datum.Year == Year_selection"}
     
   ],
   "mark": {"type": "geoshape"},
   "encoding": {
     "color": {
-      "field": "Visitation Numbers to Population Ratio",
-      "title":"International Visitors to Population Ratio",
+      "field": "International Visitors : Population",
+      "title":"International Visitors : Population",
       "type": "quantitative",
       "scale":
         {"type": "log", "scheme": "purples"}
     },
     "tooltip": [
       {"field": "Country Name", "type": "nominal", "title": "Country"},
-      {"field": "Visitation Numbers to Population Ratio", "type": "quantitative", "format":".2f"}
+      {"field": "International Visitors : Population", "type": "quantitative", "format":".2f"}
     ]
   }
 }
